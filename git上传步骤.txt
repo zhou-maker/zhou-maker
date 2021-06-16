@@ -1,0 +1,15 @@
+1.首先sudo su 进入root 用户
+
+2.ls 检查出当前文件下有什么文件
+
+3. cd 进入你将要上传的文件夹下
+
+4.git init（在本机上想要创建一个新的git仓库）
+
+5.git add -A(这里的-A是指将目标文件的所有文件都添加到git中,若不需要添加所有文件,可将-A换成具体的文件名)
+
+6.git commit -m “firstCommit” ("firstCommit" 也可以改成其他的说明性的文字,最终会显示在 github 界面 文件名的后边)
+
+7.git remote add origin xxxxxxxxx xxxxxx就是你仓库的地址(第一次创建仓库的时候使用，下一次上传文件时，不需要此步骤，否者会显示你远程已经有仓库)
+
+git push origin master
